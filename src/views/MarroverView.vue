@@ -24,15 +24,6 @@ onMounted(() => {
 </script>
 
 <template>
-  <!--<div>
-        <h1>data</h1>
-      <button @click="loaddata()">หกฟหกฟห</button>
-        <div v-for="data ,n  in photos" >
-            {{ data.rover }}
-            <img :src="data.img_src" alt="">
-        </div>
-    </div> -->
-
   <div class="container">
     <header>Picture mar-rover</header>
 

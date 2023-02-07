@@ -30,6 +30,11 @@ import { RouterLink, RouterView } from "vue-router";
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#"
+              ><router-link to="/">Home</router-link></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"
               ><router-link to="/user">User</router-link></a
             >
           </li>
