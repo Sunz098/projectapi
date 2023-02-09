@@ -29,7 +29,7 @@ onMounted(() => {
 
     <div class="teamcard">
       <div v-for="(data, n) in photos" :key="n">
-        <div class="card" style="width: 18rem">
+        <div class="card" style="width: 18rem" v-if="n <=11">
           <img :src="data.img_src" class="card-img-top" alt="..." />
           <div class="card-body">
             <p class="card-text">
